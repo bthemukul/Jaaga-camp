@@ -1,18 +1,17 @@
 body {
-background-color: #ffffff;
 font-family: 'Cabin Sketch', cursive;
-color:  #000000;
 margin: 50px;
 word-spacing: 0px;
 -webkit-margin-before: 0.67em;
 -webkit-margin-after: 0.67em;
+background-image: url("http://sf.co.ua/16/12/wallpaper-30822.jpg");
 }
 header{
 text-align: center;
 font-size: 34px;
 font-style: oblique;
+color: #ffffff;
 }
-
 
 .table, table, tr {
 	width: 100%;
@@ -26,8 +25,8 @@ a {
 }
 
 #RoundImage{
-width: 450px;
-height: 450px;
+width: 250px;
+height: 250px;
 border-color:  #b3b3ff;
 border-width: 10px;
 border-style: none;
@@ -40,9 +39,11 @@ h2{
 text-align: center;
 font-size: 25px;
 text-decoration: underline;
+color: #ffffff;
 }
 p{
 font-size: 20px;
+color: #ffffff;
 }
 #media{
 text-align: center;
@@ -52,7 +53,7 @@ text-align: right;
 clear: both;
 }
 #spree{
-color: #4c7bb7 ;
+color: orange ;
 }
 .column-create{
 column-count :4;
@@ -126,17 +127,3 @@ text-align: center;
   border-color: black;
   border-style: solid;
 }
-
-
-
-.btn {
-  font-size: 16px;
-}
-.btn-danger {
-  background: red;
-}
-.btn-success {
-  background: rgb(0,128,0,0.5);
-  font-weight: bold;
-}
-
